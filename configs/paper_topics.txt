@@ -1,6 +1,6 @@
- 1. Shows new powerful test set contamination or membership inference methods for language models. Test set contamination is the phenomenon where a language model observes a benchmark dataset during pretraining.
-    - Relevant: test statistics that can detect contamination of benchmarks in language models. statistics that can provide guarantees are more interesting. membership inference methods that are general enough to apply to language models are also relevant.
-    - Not relevant: any papers that do not consider language models, or that do not consider test set contamination.
+ 1. Shows new methods that improve on existing code benchmarks like HumanEval or SWE-Bench
+    - Relevant: Methods that leverage interesting theoretical insights or try out new methods or old methods in novel combinations
+    - Not relevant: papers that make some minor modification or do not achieve significant leaps in performance
  2. Shows a significant advance in the performance of diffusion language models.
     - Relevant: papers that study language models that are also diffusion models. Continuous diffusions are even more relevant, while discrete diffusions are less so.
     - Not relevant: papers about image diffusions like DALL-E or Stable Diffusion, or papers that do not explicitly mention language models or applications to text.
