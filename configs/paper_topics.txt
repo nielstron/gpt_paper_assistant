@@ -1,9 +1,9 @@
  1. Shows new methods that improve on existing code benchmarks like HumanEval or SWE-Bench
     - Relevant: Methods that leverage interesting theoretical insights or try out new methods or old methods in novel combinations
     - Not relevant: papers that make some minor modification or do not achieve significant leaps in performance
- 2. Shows a significant advance in the performance of diffusion language models.
-    - Relevant: papers that study language models that are also diffusion models. Continuous diffusions are even more relevant, while discrete diffusions are less so.
-    - Not relevant: papers about image diffusions like DALL-E or Stable Diffusion, or papers that do not explicitly mention language models or applications to text.
+ 2. Shows interesting insights into analyzing or assessing the storage of knowledge in language models
+    - Relevant: papers that try to pinpoint features or neurons encoding knowledge. papers that assess knowledge being present in a specific language and compare languages. assessing the relationship between knowledge and fine-tuning.
+    - Not relevant: tbd
  3. Describes new paradigms to evaluating open-ended text generation. Evaluating the outputs of language models is hard, especially in open-ended settings like for chatbots.
     - Relevant: papers that fundamentally rethink language model evaluation -- especially by accounting for subjectivity or using adversaries.
     - Not relevant: specific evaluations for specific tasks, identifying new properties or flaws of language models, or simply collecting new data.
